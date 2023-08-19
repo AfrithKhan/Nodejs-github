@@ -2,7 +2,7 @@ FROM node:16
 
 WORKDIR /app
 
-COPY package*.json .
+COPY package.json package-locl.json /app/
 
 RUN npm install
 
